@@ -1,0 +1,12 @@
+keras-nlp
+tf-keras
+sentence-transformers
+keras
+langchain
+langchain-community
+langchain-chroma
+langchainhub
+langchain-huggingface
+tavily-python
+huggingface_hub
+chromadb
