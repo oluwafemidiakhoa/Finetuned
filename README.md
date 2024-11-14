@@ -1,5 +1,8 @@
 Gemma Medical QA Model: Optimized Medical Question Answering
 
+![image](https://github.com/user-attachments/assets/73c6d8fe-b640-4131-99f5-8d4254fe2d66)
+
+
 Overview
 This repository hosts the Gemma Medical QA Model, a fine-tuned model specifically designed for answering medical-related questions with accuracy and reliability. Built upon the Gemma2_2B architecture, this model has been further trained using LoRA fine-tuning on Kaggle’s TPU infrastructure to provide efficient and accurate responses for medical queries. It is intended for medical professionals, researchers, and enthusiasts seeking quick and informed answers to a wide range of medical questions.
 
