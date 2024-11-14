@@ -1,4 +1,5 @@
 Gemma Medical QA Model: Optimized Medical Question Answering
+
 Overview
 This repository hosts the Gemma Medical QA Model, a fine-tuned model specifically designed for answering medical-related questions with accuracy and reliability. Built upon the Gemma2_2B architecture, this model has been further trained using LoRA fine-tuning on Kaggle’s TPU infrastructure to provide efficient and accurate responses for medical queries. It is intended for medical professionals, researchers, and enthusiasts seeking quick and informed answers to a wide range of medical questions.
 
@@ -12,6 +13,7 @@ Limitations
 License
 Acknowledgments
 Features
+
 Accurate Medical QA: Optimized for a variety of medical topics, including symptoms, treatments, diagnostics, and prognosis.
 Fine-tuned with LoRA: LoRA fine-tuning (rank 8) for efficient adaptation with limited computational resources.
 TPU-Enabled Performance: Leveraged TPUs on Kaggle and Google Colab for optimal training efficiency.
@@ -31,7 +33,9 @@ Clone the repository:
 
 bash
 Copy code
+
 git clone https://github.com/oluwafemidiakhoa/Finetuned.git
+
 cd Finetuned
 Install necessary dependencies (TensorFlow, Transformers, etc.):
 
