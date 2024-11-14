@@ -36,8 +36,10 @@ Copy code
 
 git clone https://github.com/oluwafemidiakhoa/Finetuned.git
 
+
 cd Finetuned
 Install necessary dependencies (TensorFlow, Transformers, etc.):
+
 
 bash
 Copy code
@@ -55,18 +57,25 @@ import tensorflow as tf
 
 # Load the model
 model_path = "/path/to/model"
+
 model = tf.keras.models.load_model(model_path)
+
 Prepare Input: Format your question input as required by the model, including any preprocessing or tokenization if necessary.
 
 Run Inference:
 
 python
 Copy code
+
 question = "What are the symptoms of hypertension?"
+
 processed_question = preprocess_question(question)  # Ensure any required preprocessing
 answer = model.predict(processed_question)
+
 print("Answer:", answer)
+
 Model Training and Fine-Tuning
+
 The model was trained with the following configurations:
 
 Data: 1,300 examples on Colab + 3,000 examples on Kaggle
